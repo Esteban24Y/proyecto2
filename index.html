@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portafolio – Yoskar, Jahir y Esteban</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="nav">
+        <div class="logo">Team Fajardo</div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">Sobre Nosotros</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#inter" class="nav-link">Inter Fajardo</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <h1>Portafolio Web</h1>
+          <h2>Yoskar • Jahir • Esteban</h2>
+          <p>
+            Estudiantes de la Inter American University of Puerto Rico, recinto
+            de Fajardo, desarrollando proyectos en HTML5, CSS3 y JavaScript.
+          </p>
+          <div class="hero-buttons">
+            <a href="#skills" class="btn primary">Ver Skills</a>
+            <a href="#contact" class="btn secondary">Contáctanos</a>
+          </div>
+        </div>
+
+        <div class="hero-cards">
+          <article class="person-card">
+            <h3>Yoskar</h3>
+            <p>Enfocado en estructura HTML5 y accesibilidad.</p>
+          </article>
+          <article class="person-card">
+            <h3>Jahir</h3>
+            <p>Diseño visual, CSS3, layouts responsivos.</p>
+          </article>
+          <article class="person-card">
+            <h3>Esteban</h3>
+            <p>Lógica con JavaScript y experiencia de usuario.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about">
+        <h2>Sobre Nosotros</h2>
+        <p>
+          Somos un equipo de tres estudiantes de Fajardo que practica desarrollo
+          web con enfoque en código limpio, estructura semántica y proyectos
+          reales.
+        </p>
+        <p>
+          Nuestro objetivo es combinar teoría de clase con proyectos prácticos
+          que demuestren disciplina, trabajo en equipo y habilidades técnicas
+          modernas.
+        </p>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>HTML5</h3>
+            <p>Estructura semántica, secciones claras y accesibilidad.</p>
+          </article>
+          <article class="skill-card">
+            <h3>CSS3</h3>
+            <p>Diseños responsivos, Flexbox, Grid y animaciones básicas.</p>
+          </article>
+          <article class="skill-card">
+            <h3>JavaScript</h3>
+            <p>
+              Interactividad, navegación dinámica y comportamiento de la
+              interfaz.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- INTER FAJARDO (SOLO FAJARDO) -->
+      <section id="inter" class="section inter">
+        <h2>Inter American University – Recinto de Fajardo</h2>
+        <p>
+          Esta sección está dedicada únicamente al recinto de Fajardo, porque es
+          donde estudiamos y desarrollamos nuestros proyectos.
+        </p>
+
+        <div class="campus-card">
+          <h3>Fajardo</h3>
+          <p>
+            Recinto costero con enfoque en tecnología, proyectos prácticos y
+            formación profesional. Aquí nace este portafolio de equipo.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section id="contact" class="section contact">
+        <h2>Contacto</h2>
+        <p>Déjanos un mensaje de ejemplo (formulario estático):</p>
+        <form class="contact-form">
+          <label>
+            Nombre:
+            <input type="text" name="nombre" required />
+          </label>
+          <label>
+            Correo:
+            <input type="email" name="correo" required />
+          </label>
+          <label>
+            Mensaje:
+            <textarea name="mensaje" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn primary">Enviar</button>
+        </form>
+        <p class="form-status" id="formStatus"></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© Team Fajardo – Yoskar, Jahir y Esteban.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
